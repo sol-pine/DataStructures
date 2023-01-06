@@ -106,7 +106,7 @@ function printAllPairs(n) {
 
 // n이 커질수록 연산 개수에 영향을 줄 때 => O(n)
 function logAtLeast5(n){
-    for (let i = 1; i <= Max.max(5, n); i++){
+    for (let i = 1; i <= Math.max(5, n); i++){
         console.log(i)
     }
 }
